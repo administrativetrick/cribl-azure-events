@@ -1,0 +1,12 @@
+id: default
+groups: {}
+routes:
+  - id: default
+    name: AzureAD
+    final: true
+    disabled: false
+    pipeline: AzureAD
+    description: ""
+    clones: []
+    filter: sourcetype=='azuread'
+    output: default
